@@ -15,7 +15,7 @@
 		F0B285901DF801D600CC6C8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0B2858E1DF801D600CC6C8F /* LaunchScreen.storyboard */; };
 		F0B2859B1DF801D600CC6C8F /* QKGroupListExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B2859A1DF801D600CC6C8F /* QKGroupListExampleTests.m */; };
 		F0B285A61DF801D600CC6C8F /* QKGroupListExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B285A51DF801D600CC6C8F /* QKGroupListExampleUITests.m */; };
-		F0B285B61DF8028000CC6C8F /* QKView.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B285B51DF8028000CC6C8F /* QKView.m */; };
+		F0B285B91DF8036100CC6C8F /* QKView.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B285B81DF8036100CC6C8F /* QKView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +52,8 @@
 		F0B285A11DF801D600CC6C8F /* QKGroupListExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QKGroupListExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0B285A51DF801D600CC6C8F /* QKGroupListExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QKGroupListExampleUITests.m; sourceTree = "<group>"; };
 		F0B285A71DF801D600CC6C8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F0B285B41DF8028000CC6C8F /* QKView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QKView.h; sourceTree = SOURCE_ROOT; };
-		F0B285B51DF8028000CC6C8F /* QKView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QKView.m; sourceTree = SOURCE_ROOT; };
+		F0B285B71DF8036100CC6C8F /* QKView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QKView.h; path = Classes/QKView.h; sourceTree = SOURCE_ROOT; };
+		F0B285B81DF8036100CC6C8F /* QKView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QKView.m; path = Classes/QKView.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,8 +147,8 @@
 		F0B285B31DF8025000CC6C8F /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				F0B285B41DF8028000CC6C8F /* QKView.h */,
-				F0B285B51DF8028000CC6C8F /* QKView.m */,
+				F0B285B71DF8036100CC6C8F /* QKView.h */,
+				F0B285B81DF8036100CC6C8F /* QKView.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -288,8 +288,8 @@
 			files = (
 				F0B285881DF801D600CC6C8F /* ViewController.m in Sources */,
 				F0B285851DF801D600CC6C8F /* AppDelegate.m in Sources */,
-				F0B285B61DF8028000CC6C8F /* QKView.m in Sources */,
 				F0B285821DF801D600CC6C8F /* main.m in Sources */,
+				F0B285B91DF8036100CC6C8F /* QKView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
