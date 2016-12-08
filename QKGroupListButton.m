@@ -1,15 +1,14 @@
-
 //
-//  QKView.m
+//  QKGroupListButton.m
 //  QKGroupListExample
 //
-//  Created by 丁乾坤 on 2016/12/7.
+//  Created by 丁乾坤 on 2016/12/8.
 //  Copyright © 2016年 丁乾坤. All rights reserved.
 //
 
-#import "QKView.h"
+#import "QKGroupListButton.h"
 
-@implementation QKView
+@implementation QKGroupListButton
 
 /*
 // Only override drawRect: if you perform custom drawing.
